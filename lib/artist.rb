@@ -35,8 +35,9 @@ class Artist
     self.all.find { |a| a.name == name }
   end
   
+  binding.pry 
   def print_songs
     #puts songs
-    binding.pry 
+    
   end
 end
