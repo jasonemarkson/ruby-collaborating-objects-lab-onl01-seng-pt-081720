@@ -36,8 +36,7 @@ class Artist
   end
   
   def print_songs
-    if all.select { |a| a.name == self }
-      binding.pry 
+    
     end
   end
 end
